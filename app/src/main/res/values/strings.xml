@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Lianxi</string>
+    <string name="haoyou">好友状态</string>
+    <string name="huati">我的话题</string>
+    <string name="shoucang">收藏</string>
+    <string name="huodong">活动</string>
+    <string name="shangdian">商城</string>
+    <string name="fankui">反馈</string>
+    <string name="baoliao">我要爆料</string>
 </resources>

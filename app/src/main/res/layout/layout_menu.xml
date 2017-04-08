@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp">
+
+        <ImageView
+            android:src="@mipmap/uj"
+            style="@style/tupian"/>
+
+        <ImageView
+            android:src="@mipmap/uk"
+            style="@style/tupian"/>
+
+        <ImageView
+            android:src="@mipmap/un"
+            style="@style/tupian"/>
+
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="28.0dip"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical"
+        android:paddingLeft="15.0dip"
+        android:text="壮哥"
+        android:textSize="14.0sp"/>
+    <TextView
+        android:id="@+id/tvToday"
+        style="@style/chicun"
+        android:text="@string/haoyou"
+        />
+
+    <View
+        style="@style/xuxian"/>
+
+    <TextView
+        android:id="@+id/tvLastlist"
+        style="@style/chicun"
+        android:text="@string/huati"
+        />
+
+    <View
+        style="@style/xuxian"/>
+
+    <TextView
+        android:id="@+id/tvDiscussMeeting"
+        style="@style/chicun"
+        android:text="@string/shoucang"
+        />
+
+    <View
+        style="@style/xuxian"/>
+
+    <TextView
+        android:id="@+id/tvMyFavorites"
+        style="@style/chicun"
+        android:text="@string/huodong"
+        />
+
+    <View
+        style="@style/xuxian"/>
+
+    <TextView
+        android:id="@+id/tvMyComments"
+        style="@style/chicun"
+        android:text="@string/shangdian"
+        />
+
+    <View
+        style="@style/xuxian"/>
+
+    <TextView
+        android:id="@+id/tvMySettings"
+        style="@style/chicun"
+        android:text="@string/fankui"/>
+
+    <View
+        style="@style/xuxian"/>
+
+    <TextView
+        android:id="@+id/baoliao"
+        style="@style/chicun"
+        android:text="@string/baoliao"/>
+
+    <View
+        style="@style/xuxian"/>
+
+
+</LinearLayout>

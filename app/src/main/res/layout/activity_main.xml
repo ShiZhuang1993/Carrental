@@ -8,13 +8,7 @@
     android:orientation="vertical"
     tools:context="com.bawei.lianxi.activity.MainActivity">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="汽车租赁"
-        android:textSize="20sp"
-        android:textStyle="bold"/>
+    <include layout="@layout/main_head"></include>
 
     <ListView
         android:id="@+id/mian_list"
