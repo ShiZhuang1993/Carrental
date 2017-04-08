@@ -72,6 +72,9 @@ public class MainActivity extends SlidingFragmentActivity implements View.OnClic
         // 设置触摸屏幕的模式,这里设置为全屏
         sm.setTouchModeAbove(SlidingMenu.TOUCHMODE_FULLSCREEN);
         // 设置下方视图的在滚动时的缩放比例
+
+
+
         sm.setBehindScrollScale(0.0f);
 
 
